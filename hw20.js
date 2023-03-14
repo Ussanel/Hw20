@@ -1,26 +1,26 @@
-// Завдання 1 
-// let firstnumber =prompt('Enter first number');
-// while(!Number(firstnumber)){
-//    alert ('Please, enter you first number')
-//    firstnumber = prompt('Enter first number')
-// };
+Завдання 1 
+let firstnumber =prompt('Enter first number');
+while(!Number(firstnumber)){
+   alert ('Please, enter you first number')
+   firstnumber = prompt('Enter first number')
+};
 
-// let secondnumber =prompt('Enter second number');
-// while(!Number(secondnumber)){
-//    alert ('Please, enter you second number')
-//    secondnumber = prompt('Enter secondnumber')
-// };
-// function maxNumber(a, b){
-//    if(a > b){
-//       return a
-//    }
-//    else if(a < b){
-//       return b
-//    }
-// return(a+'='+b)
-// };
-// let res = maxNumber(firstnumber,secondnumber);
-// alert('YOU RESULT : ' + res);
+let secondnumber =prompt('Enter second number');
+while(!Number(secondnumber)){
+   alert ('Please, enter you second number')
+   secondnumber = prompt('Enter secondnumber')
+};
+function maxNumber(a, b){
+   if(a > b){
+      return a
+   }
+   else if(a < b){
+      return b
+   }
+return(a+'='+b)
+};
+let res = maxNumber(firstnumber,secondnumber);
+alert('YOU RESULT : ' + res);
 
 // // Завдання 2
 // let usNum = prompt('Enter the number: ')
