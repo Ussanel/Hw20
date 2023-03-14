@@ -54,35 +54,34 @@
 // };
 // alert(tree(useNumber, useCount))
 
-// Завдання 4
-let userNumber = prompt( 'Enter Quantity')
-while(!Number(userNumber)){
-   alert ('Please, enter corect quantity')
-   userNumber = prompt('Enter Quantity')
-};
+// // Завдання 4
+// let userNumber = prompt('Enter Quantity')
+// while (!Number(userNumber)) {
+//     alert('Please, enter corect quantity')
+//     userNumber = prompt('Enter Quantity')
+// };
 
-let chooseMetric= prompt( 'M & cm?');
+// let chooseMetric = prompt('M & cm?');
 
-function KmToM(_argmertic){
-    let resultM =_argmertic *=1000;
-return resultM
-};
+// function KmToM(_qua1) {
+//     let resultM = _qua1 * 1000;
+//     return resultM
+// };
 
-function KmToCm(_argmertric){
-    let resultCM =_argmertric *=100000;
-return resultCM
-};
+// function KmToCm(_qua2) {
+//     let resultCM = _qua2 * 100000;
+//     return resultCM
+// };
 
-function getMetric(mertic, km,m,cm){
-    if(chooseMetric == 'm' || chooseMetric == 'M' ){
-       return KmToM
-    }
-    else if(chooseMetric == 'cm'  || chooseMetric == 'CM'){
-        return KmToCm
-    }
- 
-return
-};
+// function getMetric(_argmetric, _fun1, _fun2, _qua) {
+//     if (_argmetric == 'm' || _argmetric == 'M') {
+//         let kmM = _fun1(_qua)
+//         return kmM
+//     } else if (_argmetric == 'cm' || _argmetric == 'CM') {
+//         let kmCm = _fun2(_qua)
+//         return kmCm
+//     }
 
-alert(getMetric)
-
+//     return
+// };
+// alert(getMetric(chooseMetric, KmToM, KmToCm, userNumber))
